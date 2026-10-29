@@ -121,6 +121,10 @@ ao_demos:
         credentials:
           - machine
         ask_variables_on_launch: true
+      - name: p2s-ai-output-check
+        playbook: zero-day-response/playbooks/p2s_ai_check.yml
+        credentials: []
+        ask_variables_on_launch: true
       - name: p2s-contain-spec-check
         playbook: zero-day-response/playbooks/p2s_spec_check.yml
         credentials: []
