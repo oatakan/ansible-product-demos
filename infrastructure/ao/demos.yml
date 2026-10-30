@@ -3,8 +3,8 @@
 # Infrastructure | Automation Orchestrator | Install.
 # Add a slug and set enabled: true to seed more demos later.
 
-ao_demos_repository: https://github.com/ansible-tmm/aap-orchestrator-demos
-ao_demos_ref: main
+ao_demos_repository: https://github.com/oatakan/aap-orchestrator-demos
+ao_demos_ref: add-zero-day-response-demo
 ao_demos_project_name: AAP Orchestrator Demos
 ao_organization: Ansible Product Demos (APD)
 ao_inventory_name: Ansible Product Demos Inventory
